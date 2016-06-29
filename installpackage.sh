@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo apt-get install apache2 
-sudo apt-get install php5
+sudo apt-get install apache2 -y 
+sudo apt-get install php5 -y
 service apache2 start
 sudo apt-get install git -y
 sudo apt-get install php5-mysql
